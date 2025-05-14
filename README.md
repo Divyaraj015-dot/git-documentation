@@ -1,7 +1,7 @@
 
 
 1. **git config --global user.name "Your Name"**  
-   Sets your Git username globally.
+   Sets your Git username globally().
 
 2. **git config --global user.email "your-email@example.com"**  
    Sets your Git email globally for all repositories.
