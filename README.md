@@ -21,7 +21,7 @@
 7. **git commit -m "your message"**  
   Commits the staged changes with a message.
 
-8. **git remote add origin <repo-URL>**  
+8. **git remote add origin repo-URL**  
   Connects your local repository to a remote GitHub repository.
 
 9. **git push -u origin main**  
@@ -39,10 +39,10 @@
 13. **git branch**  
   Lists all local branches in the repository.
 
-14. **git branch <branch-name>**  
+14. **git branch branch-name**  
   Creates a new branch.
 
-15. **git checkout <branch-name>**  
+15. **git checkout branch-name**  
   Switches to the specified branch.
 
 16. **git merge <branch-name>**  
