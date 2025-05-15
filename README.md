@@ -48,6 +48,9 @@
 16. **git merge <branch-name>**  
   Merges the specified branch into the current branch.
 
-17. **git branch -d <branch-name>**  
+18. **git diff <branch-name>**
+    to compare commits,branches,files & more.
+
+19. **git branch -d <branch-name>**  
   Deletes the specified local branch.
 
