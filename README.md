@@ -49,6 +49,7 @@
   Merges the specified branch into the current branch.
 
 17. **git diff branch-name**
+    
   To compare commits,branches,files & more.
 
 19. **git branch -d branch-name**  
