@@ -12,7 +12,7 @@
 4. **git status**  
    Displays the state of the working directory and staging area.
 
-5. **git add <filename>**  
+5. **git add "filename"**  
   Stages a specific file for the next commit.
 
 6. **git add .**  
