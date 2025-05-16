@@ -55,19 +55,19 @@
   Deletes the specified local branch.
 #Branches concepts#
 - A Git branch is indeed like a parallel version of your project, allowing you to work on features or experiments without affecting the main codebase.
--Git branches serve as isolated workspaces where you can experiment, develop new features, or fix bugs without impacting the main codebase.
--This isolation allows for safer development practices and more organized workflows.
+- Git branches serve as isolated workspaces where you can experiment, develop new features, or fix bugs without impacting the main codebase.
+- This isolation allows for safer development practices and more organized workflows.
 # Parent Branch
 - A parent branch in Git refers to the branch from which another branch is created.
 - It serves as the starting point or base for the new branch.
--The parent branch is typically the branch you are currently on when creating a new branch.
--In many workflows, the parent branch is considered the "base" branch.
--Understanding the parent branch helps in managing merges and resolving conflicts.
-#Child Branch#
+- The parent branch is typically the branch you are currently on when creating a new branch.
+- In many workflows, the parent branch is considered the "base" branch.
+- Understanding the parent branch helps in managing merges and resolving conflicts.
+# Child Branch #
 - A child branch in Git is a branch that is created from another branch (the parent branch). -It represents a diverging line of development.
--The child branch inherits the commit history of the parent branch up to the point of creation.
--Developing in a child branch allows for isolated work without affecting the parent branch.
--Eventually, changes from the child branch can be merged back into the parent branch.
+- The child branch inherits the commit history of the parent branch up to the point of creation.
+- Developing in a child branch allows for isolated work without affecting the parent branch.
+- Eventually, changes from the child branch can be merged back into the parent branch.
 
 
 
