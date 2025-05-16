@@ -64,7 +64,8 @@
 - In many workflows, the parent branch is considered the "base" branch.
 - Understanding the parent branch helps in managing merges and resolving conflicts.
 # Child Branch #
-- A child branch in Git is a branch that is created from another branch (the parent branch). -It represents a diverging line of development.
+- A child branch in Git is a branch that is created from another branch (the parent branch). 
+- It represents a diverging line of development.
 - The child branch inherits the commit history of the parent branch up to the point of creation.
 - Developing in a child branch allows for isolated work without affecting the parent branch.
 - Eventually, changes from the child branch can be merged back into the parent branch.
