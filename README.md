@@ -1,5 +1,6 @@
 
 # Git Commands Cheat Sheet #
+A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 1. **git config --global user.name "Your Name"**  
    Sets your Git username globally().
 
