@@ -67,7 +67,7 @@ git commit -m "your message"
  
 
 ## ⬆️ Pushing and Pulling ##
-1. Push to remote main branch and track it.
+1. Push to main branch with tracking.
    
 ```bash
 git push -u origin main
@@ -80,7 +80,7 @@ git push -u origin main
 git push
 ```  
   
-3. Fetch and merge changes from the remote repository.
+3. Fetch and merge remote changes.
 
 ```bash
 git pull origin main
