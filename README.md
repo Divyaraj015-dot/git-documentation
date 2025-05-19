@@ -72,5 +72,7 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 - The child branch inherits the commit history of the parent branch up to the point of creation.
 - Developing in a child branch allows for isolated work without affecting the parent branch.
 - Eventually, changes from the child branch can be merged back into the parent branch.
+git init
+
 
 
