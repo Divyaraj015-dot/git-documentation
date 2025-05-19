@@ -4,8 +4,8 @@
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## 🔧 Git Configuration ##
     ```bash
-       git config --global user.name "Your Name"
-       ```  
+     git config --global user.name "Your Name"
+
 
  
 Set your global Git username.
