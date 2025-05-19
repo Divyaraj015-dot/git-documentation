@@ -5,24 +5,24 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 ## 🔧 Git Configuration ##
     git config --global user.name "Your Name"  
  
-  Sets your Git username globally().
+  Set your global Git username.
 
     git config --global user.email "your-email@example.com"  
  
-   Sets your Git email globally for all repositories.
+   Set your global Git email
 
 ## 🛠️ Repository Setup ##
     git init  
- 
-  Initializes a new Git repository in the current folder.
+ Create a new Git repository locally..
   
     git clone <repository-url> 
  
-   Clones a remote repository to your local machine.  
+   Copy a remote repository to your machine.
+
    
     git remote add origin <repository-url>  
  
-   Connects your local repository to a remote GitHub repository.
+  Link your local repo to a remote one.
 
 
 
@@ -30,57 +30,56 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 ## 📄 Staging and Committing ##
     git status  
  
-   Displays the state of the working directory and staging area.  
+Show changes and staged files 
    
     git add <filename>  
  
-   Stages a specific file for the next commit.  
+   Stage one file for commit.  
    
     git add .  
  
-   Stages all modified and new files. 
-   
+Stage all changed files.  
+
     git commit -m "your message"  
-  
-   Commits the staged changes with a message.
+  Save staged changes with a message.
 
 ## ⬆️ Pushing and Pulling ##
     git push -u origin main 
   
-   Pushes your code to the remote main branch and sets upstream tracking.  
+  Push to remote main branch and track it.  
    
     git push  
   
-   Pushes the committed changes to the remote branch.
+ Push committed changes to remote.
    
     git pull origin main  
   
-   Pulls the latest changes from the main branch of the remote repository.
+  Fetch and merge changes from remote..
 
 ## 🌿Branch Management ##
     git branch 
  
-   Lists all local branches in the repository.
+ List local branches.
 
     git branch <branch-name>
  
-   Creates a new branch.
+  Create a new branch.
 
     git checkout <branch-name> 
  
-   Switches to the specified branch.
+  Switch to a branch.
    
      git merge <branch-name>  
  
-   Merges the specified branch into the current branch.
+  Merge another branch into current.
    
      git diff <branch-name>  
  
-   Compares differences between branches, commits, or files.
+Show differences with a branch..
     
     git branch -d <branch-name> 
  
-   Deletes the specified local branch.
+Delete a local branch.
 
 
 ## 🌱 Git Branching Concepts ##
