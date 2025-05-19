@@ -4,29 +4,34 @@
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## 🔧 Git Configuration ##
 1. Set your Git username
+   
 ```bash
 git config --global user.name "Your Name"
 ```
 
 
 2. Set your Git email
+   
 ```bash
 git config --global user.email "your-email@example.com"
 ``` 
 
 
 ## 🛠️ Repository Setup ##
-1. Initialize a new Git repository in the current directory.
+1. Initialize a new Git repo.
+   
 ```bash
 git init
 ```
-2. Clone a remote repository locally. 
+2. Clone a remote repository locally.
+   
  ```bash
 git clone <repository-url>
 ```
  
 
-3. Add remote repo 
+3. Add remote repo
+   
 ```bash
 git remote add origin <repository-url>
 ``` 
@@ -36,7 +41,8 @@ git remote add origin <repository-url>
 
 
 ## 📄 Staging and Committing ##
-1. Show changes and staged files. 
+1. Show changes and staged files.
+   
 ```bash
 git status
 ``` 
@@ -46,26 +52,30 @@ git status
 ```bash
 git add <filename>
 ``` 
-3. Stage all changed files. 
+3. Stage all changed files.
+   
  ```bash
 git add .
 ```
  
  
-4. Save staged changes with a message. 
+4. Save staged changes with a message.
+   
 ```bash
 git commit -m "your message"
 ```  
  
 
 ## ⬆️ Pushing and Pulling ##
-1. Push to remote main branch and track it.  
+1. Push to remote main branch and track it.
+   
 ```bash
 git push -u origin main
 ```
   
 
-2. Push committed changes to remote.   
+2. Push committed changes to remote.
+     
 ```bash
 git push
 ```  
@@ -80,30 +90,35 @@ git pull origin main
 
 ## 🌿Branch Management ##
 1. List local branches.
+   
 ```bash
 git branch
 ``` 
-2. Create a new branch. 
+2. Create a new branch.
+   
 ```bash
 git branch <branch-name>
 ```
  
 
 3. Switch to a branch.
+   
 ```bash
 git checkout <branch-name>
 ``` 
  
 
 
-4. Merge another branch into current.   
+4. Merge another branch into current.
+    
 ```bash
 git merge <branch-name>
 ```
  
 
 
-5. Show differences with a branch.   
+5. Show differences with a branch.
+     
 ```bash
  git diff <branch-name>
 ```
