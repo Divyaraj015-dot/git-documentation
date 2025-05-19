@@ -1,6 +1,6 @@
 
-#  ![Alt text](![image](https://github.com/user-attachments/assets/e7a3b5e8-1e5a-4fcb-bc68-9a98d87c4ae1)
-Git Commands Cheat Sheet #
+
+# Git Commands Cheat Sheet #
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## Git Configuration ##
  **git config --global user.name "Your Name"**  
