@@ -84,19 +84,19 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 
 
 ## 🌱 Git Branching Concepts ##
-🔹 What is a Branch?  
+### What is a Branch? ###  
    A Git branch is a parallel version of your project.It allows you to develop features, fix bugs, or experiment without affecting the main codebase. Branches 
    provide a safe and organized workflow for both individuals and teams.
 
-🔹 Parent Branch  
+#### Parent Branch #### 
    A parent branch is the original branch from which a new branch is created.
    * It acts as the base or starting point.
    * Typically, the main or develop branch serves as the parent.
    * Understanding parent branches helps prevent conflicts and improves  collaboration.
 
-🔹 Child Branch  
-    A child branch is derived from another branch (the parent).
-    * It contains all commit history from the parent up to the point of creation. 
-    * Useful for isolated development of new features or fixes.
-    * Changes from the child branch can be merged back into the parent branch when ready.
+#### Child Branch ####
+   A child branch is derived from another branch (the parent).
+   * It contains all commit history from the parent up to the point of creation. 
+   * Useful for isolated development of new features or fixes.
+   * Changes from the child branch can be merged back into the parent branch when ready.
 
