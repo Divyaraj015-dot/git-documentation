@@ -9,21 +9,27 @@ git config --global user.name "Your Name"
 
 
 Set your global Git username.
-
-    git config --global user.email "your-email@example.com"  
+```bash
+    git config --global user.email "your-email@example.com"
+``` 
  
    Set your global Git email
 
 ## 🛠️ Repository Setup ##
-    git init  
- Create a new Git repository locally..
-  
-    git clone <repository-url> 
+```bash
+git init
+```
+ Create a new Git repository locally.
+ ```bash
+git clone <repository-url>
+```
  
    Copy a remote repository to your machine.
 
    
-    git remote add origin <repository-url>  
+```bash
+git remote add origin <repository-url>
+``` 
  
   Link your local repo to a remote one.
 
@@ -31,56 +37,80 @@ Set your global Git username.
 
 
 ## 📄 Staging and Committing ##
-    git status  
+```bash
+git status
+``` 
  
 Show changes and staged files 
    
-    git add <filename>  
+```bash
+    git add <filename>
+``` 
+ Stage one file for commit.
+ ```bash
+git add .
+```
  
-   Stage one file for commit.  
-   
-    git add .  
  
 Stage all changed files.  
-
-    git commit -m "your message"  
+```bash
+ git commit -m "your message"
+```  
   Save staged changes with a message.
 
 ## ⬆️ Pushing and Pulling ##
-    git push -u origin main 
+```bash
+git push -u origin main
+```
   
   Push to remote main branch and track it.  
    
-    git push  
+```bash
+git push
+```  
   
  Push committed changes to remote.
-   
-    git pull origin main  
+```
+git pull origin main
+``` 
   
   Fetch and merge changes from remote..
 
 ## 🌿Branch Management ##
-    git branch 
+```bash
+git branch
+``` 
  
  List local branches.
-
+```bash
     git branch <branch-name>
+```
  
   Create a new branch.
 
-    git checkout <branch-name> 
+```bash
+git checkout <branch-name>
+``` 
  
   Switch to a branch.
    
-     git merge <branch-name>  
+```bash
+git merge <branch-name>
+```
  
-  Merge another branch into current.
+
+Merge another branch into current.
+
    
-     git diff <branch-name>  
+```bash
+ git diff <branch-name>
+```
  
 Show differences with a branch..
     
-    git branch -d <branch-name> 
+```bash
+git branch -d <branch-name>
+``` 
  
 Delete a local branch.
 
