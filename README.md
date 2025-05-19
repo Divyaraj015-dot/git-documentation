@@ -3,116 +3,119 @@
 #  📗 Git Commands for Beginners #
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## 🔧 Git Configuration ##
+Set your global Git username.
 ```bash
 git config --global user.name "Your Name"
 ```
 
 
-Set your global Git username.
+Set your global Git email.
 ```bash
 git config --global user.email "your-email@example.com"
 ``` 
- 
-Set your global Git email.
+
 
 ## 🛠️ Repository Setup ##
+ Initialize a new Git repository in the current directory.
 ```bash
 git init
 ```
- Initialize a new Git repository in the current directory.
+Clone a remote repository locally. 
  ```bash
 git clone <repository-url>
 ```
  
-Clone a remote repository locally.
 
-   
+
+Link your local repo to a remote one.   
 ```bash
 git remote add origin <repository-url>
 ``` 
  
- Link your local repo to a remote one.
 
 
 
 
 ## 📄 Staging and Committing ##
+Show changes and staged files. 
 ```bash
 git status
 ``` 
  
-Show changes and staged files. 
+ Stage one file for commit.
    
 ```bash
 git add <filename>
 ``` 
- Stage one file for commit.
+Stage all changed files. 
  ```bash
 git add .
 ```
  
  
-Stage all changed files.  
+Save staged changes with a message. 
 ```bash
 git commit -m "your message"
 ```  
-  Save staged changes with a message.
+ 
 
 ## ⬆️ Pushing and Pulling ##
+  Push to remote main branch and track it.  
 ```bash
 git push -u origin main
 ```
   
-  Push to remote main branch and track it.  
-   
+
+ Push committed changes to remote.   
 ```bash
 git push
 ```  
   
- Push committed changes to remote.
+ Fetch and merge changes from the remote repository.
+
 ```bash
 git pull origin main
 ``` 
   
- Fetch and merge changes from the remote repository.
+
 
 ## 🌿Branch Management ##
+ List local branches.
 ```bash
 git branch
 ``` 
- 
- List local branches.
+Create a new branch. 
 ```bash
 git branch <branch-name>
 ```
  
-  Create a new branch.
 
+ Switch to a branch.
 ```bash
 git checkout <branch-name>
 ``` 
  
-  Switch to a branch.
-   
+
+
+Merge another branch into current.   
 ```bash
 git merge <branch-name>
 ```
  
 
-Merge another branch into current.
 
-   
+Show differences with a branch.   
 ```bash
  git diff <branch-name>
 ```
  
-Show differences with a branch.
-    
+Delete a local branch.
+
 ```bash
 git branch -d <branch-name>
 ``` 
  
-Delete a local branch.
+
 
 
 ## 🌱 Git Branching Concepts ##
