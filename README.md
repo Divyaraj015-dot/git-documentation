@@ -8,30 +8,30 @@ git config --global user.name "Your Name"
 ```
 
 
-Set your global Git username
+Set your global Git username.
 ```bash
 git config --global user.email "your-email@example.com"
 ``` 
  
-Set your global Git email
+Set your global Git email.
 
 ## 🛠️ Repository Setup ##
 ```bash
 git init
 ```
- Create a new Git repository locally.
+ Initialize a new Git repository in the current directory.
  ```bash
 git clone <repository-url>
 ```
  
-   Copy a remote repository to your machine.
+Clone a remote repository locally.
 
    
 ```bash
 git remote add origin <repository-url>
 ``` 
  
-  Link your local repo to a remote one.
+ Link your local repo to a remote one.
 
 
 
@@ -41,7 +41,7 @@ git remote add origin <repository-url>
 git status
 ``` 
  
-Show changes and staged files 
+Show changes and staged files. 
    
 ```bash
 git add <filename>
@@ -70,11 +70,11 @@ git push
 ```  
   
  Push committed changes to remote.
-```
+```bash
 git pull origin main
 ``` 
   
-  Fetch and merge changes from remote..
+ Fetch and merge changes from the remote repository.
 
 ## 🌿Branch Management ##
 ```bash
@@ -83,7 +83,7 @@ git branch
  
  List local branches.
 ```bash
-    git branch <branch-name>
+git branch <branch-name>
 ```
  
   Create a new branch.
@@ -106,7 +106,7 @@ Merge another branch into current.
  git diff <branch-name>
 ```
  
-Show differences with a branch..
+Show differences with a branch.
     
 ```bash
 git branch -d <branch-name>
@@ -118,18 +118,17 @@ Delete a local branch.
 ## 🌱 Git Branching Concepts ##
 
 ### What is a Branch? ###  
-   A Git branch is a parallel version of your project.It allows you to develop features, fix bugs, or experiment without affecting the main codebase. Branches 
-   provide a safe and organized workflow for both individuals and teams.
+A Git branch is a parallel version of your project that allows you to develop features, fix bugs, or experiment without affecting the main codebase. It provides a safe and organized workflow for both individuals and teams.
 
 #### Parent Branch #### 
-   A parent branch is the original branch from which a new branch is created.
-   * It acts as the base or starting point.
-   * Typically, the main or develop branch serves as the parent.
-   * Understanding parent branches helps prevent conflicts and improves  collaboration.
+A parent branch is the original branch from which a new branch is created.
+* It acts as the base or starting point.
+* Typically, the main or develop branch serves as the parent.
+* Understanding parent branches helps prevent conflicts and improves collaboration.
 
 #### Child Branch ####
-   A child branch is derived from another branch (the parent).
-   * It contains all commit history from the parent up to the point of creation. 
-   * Useful for isolated development of new features or fixes.
-   * Changes from the child branch can be merged back into the parent branch when ready.
+A child branch is derived from another branch (the parent).
+* It contains all commit history from the parent up to the point of creation. 
+* Useful for isolated development of new features or fixes.
+* Changes from the child branch can be merged back into the parent branch when ready.
 
