@@ -4,6 +4,7 @@
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## 🔧 Git Configuration ##
  **git config --global user.name "Your Name"**  
+   
    Sets your Git username globally().
 
  **git config --global user.email "your-email@example.com"**  
@@ -35,7 +36,7 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 
 
 **git add .**
- Stages all modified and new files.
+ Stages all modified and new files.  
 
 
 **git commit -m "your message"** 
