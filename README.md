@@ -4,7 +4,7 @@
 A beginner-friendly guide to commonly used Git commands, complete with descriptions and key concepts. This documentation is structured for easy sharing and professional presentation.
 ## 🔧 Git Configuration ##
  **git config --global user.name "Your Name"**  
-   Sets your Git username globally().
+    Sets your Git username globally().
 
  **git config --global user.email "your-email@example.com"**   
    Sets your Git email globally for all repositories.
@@ -56,7 +56,9 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 
 
 ## 🌱 Git Branching Concepts ##
-🔹 What is a Branch?
+🔹 What is a Branch?This is the first line.<br>
+    This is the second line.
+
    A Git branch is a parallel version of your project. It allows you to develop features, fix bugs, or experiment without affecting the main codebase. Branches provide a safe and organized workflow for both individuals and teams.
 
 🔹 Parent Branch.
