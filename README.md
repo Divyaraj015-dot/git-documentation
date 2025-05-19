@@ -8,12 +8,12 @@ git config --global user.name "Your Name"
 ```
 
 
-Set your global Git username.
+Set your global Git username
 ```bash
     git config --global user.email "your-email@example.com"
 ``` 
  
-   Set your global Git email
+Set your global Git email
 
 ## 🛠️ Repository Setup ##
 ```bash
@@ -44,7 +44,7 @@ git status
 Show changes and staged files 
    
 ```bash
-    git add <filename>
+git add <filename>
 ``` 
  Stage one file for commit.
  ```bash
@@ -54,7 +54,7 @@ git add .
  
 Stage all changed files.  
 ```bash
- git commit -m "your message"
+git commit -m "your message"
 ```  
   Save staged changes with a message.
 
