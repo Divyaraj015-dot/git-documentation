@@ -15,47 +15,62 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
  **git init**  
  
     Initializes a new Git repository in the current folder.
- **git clone <repository-url>**
+ **git clone <repository-url>**  
+ 
     Clones a remote repository to your local machine.
- **git remote add origin <repository-url>**
+ **git remote add origin <repository-url>**  
+ 
     Connects your local repository to a remote GitHub repository.
 
 
 
 
 ## 📄 Staging and Committing ##
- **git status**
-   Displays the state of the working directory and staging area.
- **git add <filename>**
-   Stages a specific file for the next commit.
- **git add .**
-   Stages all modified and new files.  
-  **git commit -m "your message"** 
-   Commits the staged changes with a message.
+ **git status**  
+ 
+    Displays the state of the working directory and staging area.
+ **git add <filename>**  
+ 
+    Stages a specific file for the next commit.
+ **git add .**  
+ 
+    Stages all modified and new files.  
+  **git commit -m "your message"**  
+  
+     Commits the staged changes with a message.
 
 ## ⬆️ Pushing and Pulling ##
-  **git push -u origin main**
-   Pushes your code to the remote main branch and sets upstream tracking.
-  **git push** 
-   Pushes the committed changes to the remote branch.
-  **git pull origin main**
-   Pulls the latest changes from the main branch of the remote repository.
+  **git push -u origin main**  
+  
+    Pushes your code to the remote main branch and sets upstream tracking.
+  **git push**  
+  
+    Pushes the committed changes to the remote branch.
+  **git pull origin main**  
+  
+    Pulls the latest changes from the main branch of the remote repository.
 
 ## 🌿Branch Management ##
- **git branch**
-   Lists all local branches in the repository.
+ **git branch**  
+ 
+    Lists all local branches in the repository.
 
- **git branch <branch-name>**
-   Creates a new branch.
+ **git branch <branch-name>**  
+ 
+    Creates a new branch.
 
- **git checkout <branch-name>** 
-   Switches to the specified branch.
- **git merge <branch-name>**
-   Merges the specified branch into the current branch.
- **git diff <branch-name>**
-   Compares differences between branches, commits, or files.
- **git branch -d <branch-name>**
-   Deletes the specified local branch.
+ **git checkout <branch-name>**  
+ 
+    Switches to the specified branch.
+ **git merge <branch-name>**  
+ 
+    Merges the specified branch into the current branch.
+ **git diff <branch-name>**  
+ 
+    Compares differences between branches, commits, or files.
+ **git branch -d <branch-name>**  
+ 
+    Deletes the specified local branch.
 
 
 ## 🌱 Git Branching Concepts ##
