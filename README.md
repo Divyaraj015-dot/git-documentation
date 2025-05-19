@@ -84,6 +84,7 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
 
 
 ## 🌱 Git Branching Concepts ##
+
 ### What is a Branch? ###  
    A Git branch is a parallel version of your project.It allows you to develop features, fix bugs, or experiment without affecting the main codebase. Branches 
    provide a safe and organized workflow for both individuals and teams.
