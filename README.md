@@ -16,11 +16,11 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
  
   Initializes a new Git repository in the current folder.
   
-        git clone <repository-url> 
+    git clone <repository-url> 
  
    Clones a remote repository to your local machine.  
    
-      git remote add origin <repository-url>  
+    git remote add origin <repository-url>  
  
    Connects your local repository to a remote GitHub repository.
 
@@ -32,15 +32,15 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
  
    Displays the state of the working directory and staging area.  
    
-      git add <filename>  
+    git add <filename>  
  
    Stages a specific file for the next commit.  
    
-     git add .  
+    git add .  
  
    Stages all modified and new files. 
    
-     git commit -m "your message"  
+    git commit -m "your message"  
   
    Commits the staged changes with a message.
 
@@ -53,7 +53,7 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
   
    Pushes the committed changes to the remote branch.
    
-        git pull origin main  
+    git pull origin main  
   
    Pulls the latest changes from the main branch of the remote repository.
 
@@ -97,8 +97,7 @@ A beginner-friendly guide to commonly used Git commands, complete with descripti
    * Understanding parent branches helps prevent conflicts and improves  collaboration.
 
 🔹 Child Branch  
-
-   A child branch is derived from another branch (the parent).
+  A child branch is derived from another branch (the parent).
    * It contains all commit history from the parent up to the point of creation. 
    * Useful for isolated development of new features or fixes.
    * Changes from the child branch can be merged back into the parent branch when ready.
