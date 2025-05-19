@@ -10,7 +10,7 @@ git config --global user.name "Your Name"
 
 Set your global Git username
 ```bash
-    git config --global user.email "your-email@example.com"
+git config --global user.email "your-email@example.com"
 ``` 
  
 Set your global Git email
