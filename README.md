@@ -300,8 +300,9 @@ git stash apply
 
   
 ```bash
- #Restores the changes and removes the stash from the list.
+ 
 git stash pop
+#Restores the changes and removes the stash from the list.
 ```
 
 
