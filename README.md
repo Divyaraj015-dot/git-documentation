@@ -249,11 +249,11 @@ git branch -vv
 ```
 This shows all your branches and their tracking info.
 
-🧵 What is git stash?
+#### 🧵 What is git stash? ####
 
 git stash is a Git command used to temporarily save your uncommitted changes (both staged and unstaged) without committing them. It allows you to switch branches or work on something else without losing your current progress.
 
-#### ✨ Why Use git stash? ####
+##### ✨ Why Use git stash? #####
    You're in the middle of some work.
 
    You need to switch to another branch to fix a bug or test something.
