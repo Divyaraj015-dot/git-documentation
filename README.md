@@ -249,6 +249,102 @@ git branch -vv
 ```
 This shows all your branches and their tracking info.
 
+🧵 What is git stash?
+git stash is a Git command used to temporarily save your uncommitted changes (both staged and unstaged) without committing them. It allows you to switch branches or work on something else without losing your current progress.
+
+#### ✨ Why Use git stash? ####
+   You're in the middle of some work.
+
+   You need to switch to another branch to fix a bug or test something.
+
+   You don’t want to commit your partial work yet, but also don’t want to lose it.
+
+##### 📌 Basic Stash Commands #####
+🔹 Save current changes
+```bash
+
+git stash
+```
+   Temporarily saves your changes and gives you a clean working directory.
+
+🔹 See a list of stashed items
+```bash
+
+git stash list
+```
+   Displays all saved stashes.
+
+  Example output:
+
+```bash
+stash@{0}: WIP on main: 1a2b3c4 updated about section
+```
+🔹 Apply the latest stash (and keep it)
+```bash
+
+git stash apply
+```
+ Restores your saved changes into the current working directory.
+
+🔹 Apply and remove the stash
+```bash
+
+git stash pop
+```
+   Restores the changes and removes the stash from the list.
+
+🔹 View changes inside a stash
+```bash
+
+git stash show -p
+```
+   Shows the detailed diff of the most recent stash.
+
+🔹 Delete a specific stash
+```bash
+
+git stash drop stash@{0}
+```
+Deletes one specific stash from the list.
+
+🔹 Delete all stashes
+```bash
+
+git stash clear
+```
+Removes all saved stashes.
+
+🧪 Example Workflow
+```bash
+
+# Step 1: Edit a file (e.g., about.html)
+
+
+# Step 2: Save uncommitted changes
+git stash
+
+# Step 3: Do something else (like switching branches)
+git checkout main
+
+# Step 4: Return to the original branch
+git checkout feature/about-page
+
+# Step 5: Reapply your saved work
+git stash apply
+
+# Step 6: (Optional) Remove the stash
+git stash drop
+💡 Undo Stash Apply
+```
+If you apply a stash and then want to discard the changes (go back to the last commit):
+
+``` bash
+
+git restore <filename>
+
+# Example:
+git restore about.html
+```
 
 
 
