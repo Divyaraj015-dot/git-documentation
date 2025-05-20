@@ -249,33 +249,35 @@ git branch -vv
 ```
 This shows all your branches and their tracking info.
 
-#### 🧵 What is git stash? ####
+## 🧵 What is git stash? ##
 
 git stash is a Git command used to temporarily save our uncommitted changes (both staged and unstaged) without committing them. It allows us to switch branches or work on something else without losing our current progress.
 
-##### ✨ Why Use git stash? #####
+### ✨ Why Use git stash? ###
    * We're in the middle of some work.
 
    * We need to switch to another branch to fix a bug or test something.
 
    * We don’t want to commit your partial work yet, but also don’t want to lose it.
 
-##### 📌 Basic Stash Commands #####
+#### 📌 Basic Stash Commands ####
 🔹 Save current changes
 
-  #Temporarily saves your changes and gives you a clean working directory.
+  
 ```bash
 
 git stash
+#Temporarily saves your changes and gives you a clean working directory.
 ```
    
 
 🔹 See a list of stashed items
 
-   #Displays all saved stashes.
+   
 ```bash
 
 git stash list
+#Displays all saved stashes.
 ```
    
 
@@ -286,8 +288,9 @@ stash@{0}: WIP on main: 1a2b3c4 updated about section
 ```
 🔹 Apply the latest stash (and keep it) 
 
- #Restores your saved changes into the current working directory.
+ 
 ```bash
+#Restores your saved changes into the current working directory.
 
 git stash apply
 ```
@@ -295,34 +298,37 @@ git stash apply
 
 🔹 Apply and remove the stash
 
-  #Restores the changes and removes the stash from the list.
+  
 ```bash
-
+ #Restores the changes and removes the stash from the list.
 git stash pop
 ```
 
 
 🔹 View changes inside a stash 
 
-#Shows the detailed diff of the most recent stash.
+
 ```bash
 
 git stash show -p
+#Shows the detailed diff of the most recent stash.
 ```
-   Shows the detailed diff of the most recent stash.
+  
 
 🔹 Delete a specific stash
 ```bash
 
 git stash drop stash@{0}
+#Deletes one specific stash from the list.
 ```
-Deletes one specific stash from the list.
+
 
 🔹 Delete all stashes
- #Removes all saved stashes.
+ 
 ```bash
 
 git stash clear
+#Removes all saved stashes.
 ```
 .
 
