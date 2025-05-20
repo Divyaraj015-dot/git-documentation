@@ -290,9 +290,10 @@ stash@{0}: WIP on main: 1a2b3c4 updated about section
 
  
 ```bash
-#Restores your saved changes into the current working directory.
+
 
 git stash apply
+#Restores your saved changes into the current working directory.
 ```
  
 
