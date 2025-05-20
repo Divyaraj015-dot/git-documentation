@@ -154,16 +154,16 @@ A child branch is derived from another branch (the parent).
  1. origin
  * origin is the default name Git gives to the remote repository you cloned your project from.
 
- * It acts as a shortcut so you don’t have to type the full URL every time you push or pull code.
+ * It acts as a shortcut so we don’t have to type the full URL every time we push or pull code.
 
    We can think of it as:
    origin = remote location of the project.
    Example:
 
-```bash
+  ```bash
 
-git clone https://github.com/username/repo-name.git
-```
+  git clone https://github.com/username/repo-name.git
+  ```
    After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
 
 
@@ -173,10 +173,10 @@ git clone https://github.com/username/repo-name.git
  * It is usually the primary working branch where the latest stable version of the code lives.
  * This is the branch name we are pushing to.
 
-   Together: origin/main
-   origin/main refers to the main branch of the remote repository (i.e., the main branch on GitHub, not your local one).
+Together: origin/main
+origin/main refers to the main branch of the remote repository (i.e., the main branch on GitHub, not your local one).
 
-   If we run:
+If we run:
 
 ```bash
 
