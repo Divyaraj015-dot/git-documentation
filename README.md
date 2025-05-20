@@ -263,7 +263,7 @@ git stash is a Git command used to temporarily save our uncommitted changes (bot
 ##### 📌 Basic Stash Commands #####
 🔹 Save current changes
 
-  # Temporarily saves your changes and gives you a clean working directory.
+  #Temporarily saves your changes and gives you a clean working directory.
 ```bash
 
 git stash
@@ -272,7 +272,7 @@ git stash
 
 🔹 See a list of stashed items
 
-   # Displays all saved stashes.
+   #Displays all saved stashes.
 ```bash
 
 git stash list
@@ -286,7 +286,7 @@ stash@{0}: WIP on main: 1a2b3c4 updated about section
 ```
 🔹 Apply the latest stash (and keep it) 
 
- # Restores your saved changes into the current working directory.
+ #Restores your saved changes into the current working directory.
 ```bash
 
 git stash apply
@@ -295,7 +295,7 @@ git stash apply
 
 🔹 Apply and remove the stash
 
-  # Restores the changes and removes the stash from the list.
+  #Restores the changes and removes the stash from the list.
 ```bash
 
 git stash pop
@@ -319,7 +319,7 @@ git stash drop stash@{0}
 Deletes one specific stash from the list.
 
 🔹 Delete all stashes
- # Removes all saved stashes.
+ #Removes all saved stashes.
 ```bash
 
 git stash clear
