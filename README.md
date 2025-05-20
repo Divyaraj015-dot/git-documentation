@@ -188,7 +188,7 @@ git log origin/main
 ```
  It shows the commit history of the remote main branch.
  
- #### 🤔Why is it necessary to set the origin for a New Branch? ####
+ #### 🤔 Why is it necessary to set the origin for a New Branch? ####
  
  When we create a new branch locally using Git, it exists only on our computer. For others (or GitHub) to know about this branch, we need to push it to the 
  remote repository (usually named origin).
@@ -202,7 +202,7 @@ git log origin/main
 
 #### ❓How to set the origin for a New Branch? ####
 
-   When you create a new branch locally, Git doesn't automatically know where to push it on GitHub. You need to set the origin so your local branch connects to the 
+   When we create a new branch locally, Git doesn't automatically know where to push it on GitHub. We need to set the origin so our local branch connects to the 
    remote one.
 
    🛠️ Step-by-Step Guide
@@ -251,14 +251,14 @@ This shows all your branches and their tracking info.
 
 #### 🧵 What is git stash? ####
 
-git stash is a Git command used to temporarily save your uncommitted changes (both staged and unstaged) without committing them. It allows you to switch branches or work on something else without losing your current progress.
+git stash is a Git command used to temporarily save our uncommitted changes (both staged and unstaged) without committing them. It allows us to switch branches or work on something else without losing our current progress.
 
 ##### ✨ Why Use git stash? #####
-   You're in the middle of some work.
+   * We're in the middle of some work.
 
-   You need to switch to another branch to fix a bug or test something.
+   * We need to switch to another branch to fix a bug or test something.
 
-   You don’t want to commit your partial work yet, but also don’t want to lose it.
+   * We don’t want to commit your partial work yet, but also don’t want to lose it.
 
 ##### 📌 Basic Stash Commands #####
 🔹 Save current changes
