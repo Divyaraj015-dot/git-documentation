@@ -152,10 +152,11 @@ A child branch is derived from another branch (the parent).
 #### ❓What is the origin/main? ####
 
    In git origin and main have specific meanings:
+   
    1. origin
-      * origin is the default name Git gives to the remote repository you cloned your project from.
+   * origin is the default name Git gives to the remote repository you cloned your project from.
 
-      * It acts as a shortcut so we don’t have to type the full URL every time we push or pull code.
+   * It acts as a shortcut so we don’t have to type the full URL every time we push or pull code.
 
    We can think of it as:
    origin = remote location of the project.
@@ -169,10 +170,10 @@ A child branch is derived from another branch (the parent).
 
 
  2. main
-   * main is the default branch name in many new GitHub repositories (previously, master was the default).
+ * main is the default branch name in many new GitHub repositories (previously, master was the default).
 
-   * It is usually the primary working branch where the latest stable version of the code lives.
-   * This is the branch name we are pushing to.
+ * It is usually the primary working branch where the latest stable version of the code lives.
+ * This is the branch name we are pushing to.
 
  Together: origin/main
 
