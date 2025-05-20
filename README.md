@@ -187,4 +187,7 @@ git fetch
 git log origin/main
 ```
  It shows the commit history of the remote main branch.
+ 
+ #### 🤔Why is it necessary to set the origin for a New Branch? ####
+
 
