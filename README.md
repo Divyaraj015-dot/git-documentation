@@ -174,6 +174,7 @@ A child branch is derived from another branch (the parent).
  * This is the branch name we are pushing to.
 
 Together: origin/main
+
 origin/main refers to the main branch of the remote repository (i.e., the main branch on GitHub, not your local one).
 
 If we run:
