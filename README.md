@@ -321,76 +321,62 @@ git stash is a Git command used to temporarily save our uncommitted changes (bot
 #### 📌 Basic Stash Commands ####
 🔹 Save current changes
 
-  
 ```bash
 
-git stash
-#Temporarily saves your changes and gives you a clean working directory.
-```
-   
+git stash 
 
+ #Temporarily saves your changes and gives you a clean working directory.
+```
 🔹 See a list of stashed items
 
-   
 ```bash
 
-git stash list
-#Displays all saved stashes.
+git stash list  
+# Displays all saved stashes.
 ```
-   
-
-  #Example output:
+🔹 Apply the latest stash (and keep it)
 
 ```bash
-stash@{0}: WIP on main: 1a2b3c4 updated about section
+
+git stash apply  
+# Restores your saved changes into the working directory.
+# ✅ Keeps the stash in the list.
 ```
-🔹 Apply the latest stash (and keep it) 
-
- 
-```bash
-
-
-git stash apply
-#Restores your saved changes into the current working directory.
-```
- 
-
 🔹 Apply and remove the stash
 
-  
 ```bash
- 
-git stash pop
-#Restores the changes and removes the stash from the list.
+
+git stash pop  
+# Restores your saved changes into the working directory.
+# ✅ Equivalent to 'apply' + 'drop' — applies and then deletes the stash.
 ```
-
-
-🔹 View changes inside a stash 
-
+🔹 View changes inside a stash
 
 ```bash
 
-git stash show -p
-#Shows the detailed diff of the most recent stash.
+git stash show -p  
+# Shows the detailed diff (patch) of the most recent stash.
 ```
-  
+🔹 Example output of git stash list:
 
+```bash
+
+stash@{0}: WIP on main: 1a2b3c4 updated about section
+```
 🔹 Delete a specific stash
+
 ```bash
 
-git stash drop stash@{0}
-#Deletes one specific stash from the list.
+git stash drop stash@{0}  
+# Deletes one specific stash from the list.
 ```
-
-
 🔹 Delete all stashes
- 
-```bash
 
-git stash clear
-#Removes all saved stashes.
+``bash
+
+git stash clear  
+# Removes all saved stashes.
 ```
-.
 
 🧪 Example Workflow
 ```bash
