@@ -409,7 +409,23 @@ git restore <filename>
 # Example:
 git restore about.html
 ```
+## ❓What is Git Rebase? ##
 
+   git rebase is a Git command used to move or combine a sequence of commits to a new base commit. It’s typically used to:
+
+  * Streamline commit history
+
+  * Incorporate changes from one branch onto another
+
+  * Avoid unnecessary merge commits
+
+It rewrites commit history by changing the base of your branch to another commit, often making the commit log cleaner and linear.
+
+🔹 Why Use Git Rebase?
+✅ To maintain a clean and linear commit history
+✅ To avoid unnecessary merge commits
+✅ To integrate changes from the main branch (e.g., main, master) into a feature branch before merging
+✅ To make code reviews and collaboration easier
 
 
 
