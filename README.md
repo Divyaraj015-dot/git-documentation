@@ -155,43 +155,45 @@ A child branch is derived from another branch (the parent).
 * Changes from the child branch can be merged back into the parent branch when ready.
 
 #### ❓What is the origin/main? ####
- In Git, origin, main, and origin/main have specific meanings:
-1. origin
+ 
+  In Git, origin, main, and origin/main have specific meanings:
+  
+  1. origin:
    
-origin is the default name Git assigns to the remote repository you cloned your project from.
+  origin is the default name Git assigns to the remote repository you cloned your project from.
 
-It acts as a convenient shortcut, so you don’t have to type the full repository URL when pushing, pulling, or fetching.
+  It acts as a convenient shortcut, so you don’t have to type the full repository URL when pushing, pulling, or fetching.
 
-Think of it as:
+  Think of it as:
 
-origin = remote location of the project.
+  origin = remote location of the project.
 
-Example:
+  Example:
 
 ```bash
 
 git clone https://github.com/username/repo-name.git
 ```
-After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
+  After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
 
-2. main
+ 2. main:
    
-main is the default branch name in many modern GitHub repositories (it replaced master as the default).
+ main is the default branch name in many modern GitHub repositories (it replaced master as the default).
 
-It is typically the primary working branch where the most stable and up-to-date version of the code resides.
+ It is typically the primary working branch where the most stable and up-to-date version of the code resides.
 
-3. origin/main
-origin/main is a remote-tracking branch.
+ 3. origin/main
+ origin/main is a remote-tracking branch.
 
-It exists locally in your repository and points to the last known state of the main branch on the remote (origin).
+ It exists locally in your repository and points to the last known state of the main branch on the remote (origin).
 
-It gets updated when you run git fetch, not git pull alone.
+ It gets updated when you run git fetch, not git pull alone.
 
-In short:
-origin/main ≠ remote main branch
-It is your local copy of the remote main, maintained by Git to track updates.
+ In short:
+ origin/main ≠ remote main branch
+ It is your local copy of the remote main, maintained by Git to track updates.
 
-Example:
+ Example:
 
 ```bash
 
