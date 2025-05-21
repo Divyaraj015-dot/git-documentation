@@ -374,8 +374,8 @@ git stash drop stash@{0}
 
 ``bash
 
-git stash clear  
-# Removes all saved stashes.
+    git stash clear  
+    #Removes all saved stashes.
 ```
 
 🧪 Example Workflow
