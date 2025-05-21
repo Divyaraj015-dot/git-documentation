@@ -129,8 +129,13 @@ git merge <branch-name>
 git branch -d <branch-name>
 ``` 
  
+7. Delete a remote branch.
 
+```bash
 
+git push origin --delete <branch-name>
+
+```
 
 ## 🌱 Git Branching Concepts ##
 
@@ -150,41 +155,87 @@ A child branch is derived from another branch (the parent).
 * Changes from the child branch can be merged back into the parent branch when ready.
 
 #### ❓What is the origin/main? ####
+In Git, origin, main, and origin/main have specific meanings:
+1. origin
+origin is the default name Git assigns to the remote repository you cloned your project from.
 
-   In git origin and main have specific meanings:
-   
-   1. origin
-   * origin is the default name Git gives to the remote repository you cloned your project from.
+It acts as a convenient shortcut, so you don’t have to type the full repository URL when pushing, pulling, or fetching.
 
-   * It acts as a shortcut so we don’t have to type the full URL every time we push or pull code.
+Think of it as:
 
-   We can think of it as:
-   origin = remote location of the project.
-   Example:
+origin = remote location of the project.
 
-  ```bash
+Example:
 
-  git clone https://github.com/username/repo-name.git
-  ```
-   After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
+```bash
 
+git clone https://github.com/username/repo-name.git
+```
+After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
 
- 2. main
- * main is the default branch name in many new GitHub repositories (previously, master was the default).
+2. main
+main is the default branch name in many modern GitHub repositories (it replaced master as the default).
 
- * It is usually the primary working branch where the latest stable version of the code lives.
- * This is the branch name we are pushing to.
+It is typically the primary working branch where the most stable and up-to-date version of the code resides.
 
- Together: origin/main
+3. origin/main
+origin/main is a remote-tracking branch.
 
- origin/main refers to the main branch of the remote repository (i.e., the main branch on GitHub, not your local one).
+It exists locally in your repository and points to the last known state of the main branch on the remote (origin).
 
- If we run:
+It gets updated when you run git fetch, not git pull alone.
+
+In short:
+origin/main ≠ remote main branch
+It is your local copy of the remote main, maintained by Git to track updates.
+
+Example:
 
 ```bash
 
 git fetch
 git log origin/main
+```
+This will show the latest commits that exist in the remote's main branch, as known by your local Git.
+
+On git pull and best practices
+```bash
+
+git pull origin main
+```
+This command is often used to pull changes from the main branch of the remote (origin). However, it's not always necessary to specify both if your local branch is already tracking a remote branch.
+
+✅ Recommended:
+When the local branch is set to track a remote branch (default when cloning or using git push -u):
+
+```bash
+
+git pull
+```
+If no upstream tracking is set:
+
+```bash
+
+git pull origin main
+```
+You can set the upstream with:
+
+```bash
+
+git branch --set-upstream-to=origin/main
+```
+Or, when pushing for the first time:
+
+```bash
+
+git push -u origin main
+```
+This way, future pulls/pushes can simply use:
+
+```bash
+
+git pull
+git push
 ```
  It shows the commit history of the remote main branch.
  
@@ -200,7 +251,7 @@ git log origin/main
 
  * Track changes between your local branch and the remote version.
 
-#### ❓How to set the origin for a New Branch? ####
+#### ❓How to set  upstream tracking for a new branch”? ####
 
    When we create a new branch locally, Git doesn't automatically know where to push it on GitHub. We need to set the origin so our local branch connects to the 
    remote one.
