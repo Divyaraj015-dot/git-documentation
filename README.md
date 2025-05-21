@@ -422,6 +422,7 @@ git restore about.html
 It rewrites commit history by changing the base of your branch to another commit, often making the commit log cleaner and linear.
 
 🔹 Why Use Git Rebase?
+
 ✅ To maintain a clean and linear commit history
 ✅ To avoid unnecessary merge commits
 ✅ To integrate changes from the main branch (e.g., main, master) into a feature branch before merging
