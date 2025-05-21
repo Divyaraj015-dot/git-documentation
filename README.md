@@ -170,10 +170,10 @@ A child branch is derived from another branch (the parent).
 
       Example:
 
-      ```bash
+```bash
 
     git clone https://github.com/username/repo-name.git
-    ```
+ ```
    After cloning, Git automatically sets origin as the reference to https://github.com/username/repo-name.git.
 
  2. main:
