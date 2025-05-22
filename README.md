@@ -424,9 +424,13 @@ It rewrites commit history by changing the base of your branch to another commit
 🔹 Why Use Git Rebase?
 
 ✅ To maintain a clean and linear commit history
+
 ✅ To avoid unnecessary merge commits
+
 ✅ To integrate changes from the main branch (e.g., main, master) into a feature branch before merging
+
 ✅ To make code reviews and collaboration easier
+
 ```bash
 # Step 1: Switch to your feature branch
 git checkout feature-branch
