@@ -427,6 +427,23 @@ It rewrites commit history by changing the base of your branch to another commit
 ✅ To avoid unnecessary merge commits
 ✅ To integrate changes from the main branch (e.g., main, master) into a feature branch before merging
 ✅ To make code reviews and collaboration easier
+```bash
+# Step 1: Switch to your feature branch
+git checkout feature-branch
+
+# Step 2: Rebase your feature branch onto the main branch
+git rebase main
+
+# Step 3: If there are conflicts, resolve them manually, then run:
+git add .
+git rebase --continue
+
+# Step 4: If you want to cancel the rebase at any point:
+git rebase --abort
+
+# Step 5: Push changes (use --force if the branch was already pushed)
+git push --force
+```
 
 
 
